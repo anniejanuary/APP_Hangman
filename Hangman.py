@@ -3,7 +3,7 @@ word_list = ["aardvark", "baboon", "camel"]
 import random
 
 chosen_word = random.choice(word_list)
-#Testing code
+🔎#Testing code
 print(f'Pssst, the solution is {chosen_word}.')
 
 #TODO-1: - Create an empty List called display.
