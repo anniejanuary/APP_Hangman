@@ -1,7 +1,7 @@
 import random
 
 # using the 'word_list' from hangman_words.py
-import hangman_words
+import hangman_words  #🔀 from hangman_words import word_list
 chosen_word = random.choice(hangman_words.word_list)
 
 #🔎Testing code
