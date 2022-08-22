@@ -5,7 +5,7 @@ import hangman_words
 chosen_word = random.choice(hangman_words.word_list)
 
 #🔎Testing code
-print(f'Pssst, the solution is {chosen_word}.')
+#print(f'Pssst, the solution is {chosen_word}.')
 
 # setting number of lives = 6 (6 stages of gallows)
 lives = 6
