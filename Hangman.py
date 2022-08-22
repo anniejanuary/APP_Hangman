@@ -8,7 +8,7 @@ chosen_word = random.choice(hangman_words.word_list)
 #print(f'Pssst, the solution is {chosen_word}.')
 
 # setting number of lives = 6 (6 stages of gallows)
-lives = 6
+lives = 10
 
 #Importing the logo from hangman_art.py
 import hangman_ASCII_art
@@ -23,6 +23,8 @@ for letter in chosen_word:
 display = []
 for letter in chosen_word:
   display.append("_")    #🔀 display += "_"
+
+print(' '.join(display))
 
 end_of_game = False
 
